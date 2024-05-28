@@ -1,0 +1,153 @@
+/* Basic reset styles */
+body,
+h1,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation styles */
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  background-color:#049464;
+  color: white;
+  padding: 0.03rem 8rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #049464;
+  background-color: #ffffff;
+}
+
+nav div.logo{
+  font-size: 30px;
+  border: 1px solid white;
+  background-color:white;
+  color: #049464;
+  font-weight: bolder;
+  padding: 1.5rem 1rem;
+}
+
+.nav-icons {
+  list-style: none;
+  display: flex;
+}
+
+.li-icon {
+  margin-left: 10rem;
+  padding-top: 1.5rem;
+  opacity: 0.8;
+  font-size: 1.3rem;
+}
+
+.li-icon a {
+  text-decoration: none;
+  color: white;
+}
+.slide {
+  position: relative;
+  overflow: hidden; 
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+}
+.sub-text{
+  font-size: 1.6rem;
+  font-style: italic;
+  color: #049464;
+}
+
+/* Footer styles */
+.footer-items {
+  text-align: center;
+  height: 400px;
+  background-color:#39424b ;
+  padding-top: 80px;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.reach-us {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.social-icons-set1,
+.social-icone-set2 {
+  display: flex;
+  justify-content: center; 
+}
+
+.social-icons-set1 ul,
+.social-icone-set2 ul {
+  list-style: none;
+  padding: 0;  
+}
+.social-icons-set1 ul li i,
+.social-icone-set2 ul li i {
+  margin-right: 0.3rem;
+}
+
+.social-icons-set1 li,
+.social-icone-set2 li {
+  display: inline-block;
+  margin-right: 1rem; 
+  color: white;
+  font-size: 2rem;
+}
+
+.social-icons-set1 a,
+.social-icone-set2 a {
+  text-decoration: none;
+  color: white;
+}
+.social-icone-set2 ul li i.call{
+  margin-bottom: 5rem;
+}
+.footer-description {
+  display: flex;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  justify-content: center;
+}
+.footer-line{
+  border:0.1rem solid #049464 ;
+}
+.footer-description div{
+  margin: 0 10rem;
+  font-size: 1.4rem;
+  padding: 1rem;
+
+}
+
